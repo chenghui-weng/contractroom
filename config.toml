@@ -1,0 +1,46 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+title = "新約契約室"
+theme = "hugo-creative-portfolio-theme"
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "將神來的亮光照在這份神人契約上"
+  copyright = "Except where otherwise noted, content on this site is licensed under a CC0 1.0 Universal license"
+  sidebarAbout = [
+	"新約是神與人訂定的契約。神透過這個契約將祝福源源不絕傾倒給人。口裡承認心裡相信基督是救主，就簽訂了這個永遠的契約"
+  ]
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "you@yoursite.com"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "列表 | Home"
+  url = "posts/"
+  home = true
+
+  [params.social]
+  twitter       = "https://mobile.twitter.com/nccontractroom"
+  github        = "https://github.com/chenghui-weng/contractroom"
