@@ -1,4 +1,4 @@
-baseURL = "https://chenghui-weng.github.io/contractroom/"
+baseURL = "https://chenghui-weng.github.io/nccontractroom/"
 languageCode = "zh-tw"
 title = "新約契約室"
 theme = "hugo-creative-portfolio-theme"
@@ -43,4 +43,4 @@ theme = "hugo-creative-portfolio-theme"
 
   [params.social]
   twitter       = "https://mobile.twitter.com/nccontractroom"
-  github        = "https://github.com/chenghui-weng/contractroom"
+  github        = "https://github.com/chenghui-weng/nccontractroom"
