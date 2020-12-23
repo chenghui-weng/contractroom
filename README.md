@@ -1,4 +1,4 @@
-# 新約契約室 / Contractroom
+# 新約契約室 / New Covenant Contractroom
 
 新約是神與相信祂的人之間的契約。
 
